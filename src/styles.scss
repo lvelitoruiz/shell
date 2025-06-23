@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+/* Estilos básicos temporales en lugar de Tailwind */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+.animate-spin { animation: spin 1s linear infinite; }
+.rounded-full { border-radius: 50%; }
+.border-b-2 { border-bottom: 2px solid; }
+.border-blue-500 { border-color: #3b82f6; }
+.ml-2 { margin-left: 0.5rem; }
+.h-8 { height: 2rem; }
+.w-8 { width: 2rem; }
+.h-64 { height: 16rem; }
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
